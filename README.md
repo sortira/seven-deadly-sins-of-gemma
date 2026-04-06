@@ -1,5 +1,5 @@
 <img src="cover.png" width="300" height="200"></img>
-# seven deadly sins in the of gemma-2-2b
+# seven deadly sins in gemma-2-2b
 
 exploring emotion vectors based on inspiration from anthropic's paper, with a twist.
 
