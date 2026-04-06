@@ -6,6 +6,9 @@ Seven Deadly Sins in Gemma 2 2B - Sinclopedia
 import streamlit as st
 
 st.set_page_config(page_title="Sinclopedia", layout="wide")
+
+st.image("cover.png", width=300)
+
 st.title("Seven Deadly Sins in Gemma 2 2B Representation Space")
 
 st.markdown("""
