@@ -1,0 +1,27 @@
+[project]
+name = "seven-deadly-sins-of-gemma"
+version = "0.1.0"
+description = "SAE analysis on Gemma models"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "sae-lens",
+    "torch",
+    "loguru",
+    "transformer-lens>=2.15.4",
+    "scikit-learn>=1.8.0",
+    "streamlit>=1.56.0",
+    "pandas>=2.3.3",
+]
+
+[tool.uv]
+# Define the PyTorch CUDA 12.1 index
+index = [
+    { name = "pytorch-cu121", url = "https://download.pytorch.org/whl/cu121", explicit = true }
+]
+
+[tool.uv.sources]
+# Pin these packages to ONLY use the CUDA index
+torch = { index = "pytorch-cu121" }
+torchvision = { index = "pytorch-cu121" }
+torchaudio = { index = "pytorch-cu121" }
