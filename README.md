@@ -1,5 +1,7 @@
 <img src="cover.png" width="300" height="200"></img>
-# seven deadly sins in the representation space of gemma-2
+# seven deadly sins in the of gemma-2-2b
+
+exploring emotion vectors based on inspiration from anthropic's paper, with a twist.
 
 original paper from anthropic is [here](https://transformer-circuits.pub/2026/emotions/index.html)
 
