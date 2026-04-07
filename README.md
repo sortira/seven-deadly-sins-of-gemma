@@ -5,9 +5,9 @@ exploring emotion vectors based on inspiration from anthropic's paper, with a tw
 
 original paper from anthropic is [here](https://transformer-circuits.pub/2026/emotions/index.html)
 
-blog post: 
+blog post: [read here](https://silicognition.is-a.dev/post3.html)
 
-video: [coming soon](README.md)
+video: [watch on Youtube](https://www.youtube.com/watch?v=g92ZPYi6Ztk)
 
 
 steps to reproduce (the repository and the results):
